@@ -1,0 +1,10 @@
+# Language detection rules
+# Normalize line endings
+*.bat text eol=crlf
+* text=auto eol=lf
+*.tsx linguist-detectable
+
+*.htm linguist-vendored
+src/** linguist-detectable
+
+public/* linguist-vendored
